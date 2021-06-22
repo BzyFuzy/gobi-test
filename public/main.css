@@ -168,16 +168,15 @@ a {
 }
 
 .sale {
+    position: relative;
+    top: -30px;
+    left: -15px;
 	font-family: Mr Dafoe;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 82px;
 	line-height: 84.4%;
-	/* or 69px */
-
 	text-align: center;
-
 	color: #e85757;
-
 	transform: rotate(-8.99deg);
 }

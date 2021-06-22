@@ -24,9 +24,9 @@ function App() {
 					</div>
           
 				</div>
-        <div style={{display: "flex", background: "cyan"}}>
+        <div style={{display: "flex"}}>
           <div style={{flex: 1}}></div>
-          <div style={{flex: 1, background: "green"}}>
+          <div style={{flex: 1}}>
           <p className="summer">SUMMER </p>
           <p className="sale">Sale</p>
           </div>

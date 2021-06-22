@@ -1,5 +1,4 @@
 const NavigationBar = () => (
-	<div className="App">
 		<div className="nav">
 			<div className="row center">
 				<i className="icon earth" />
@@ -16,8 +15,6 @@ const NavigationBar = () => (
 				<p className="button">SIGN UP</p>
 			</div>
 		</div>
-        
-	</div>
 );
 
 export default NavigationBar;
