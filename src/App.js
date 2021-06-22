@@ -14,7 +14,7 @@ function App() {
 						<li style={{ marginRight: 0 }}>ORGANIC</li>
 					</ul>
 					<div className="logo">
-						<img src="/img/logo.svg" height="42px" />
+						<img alt="logo" src="/img/logo.svg" height="42px" />
 					</div>
 					<div className="row center" style={{ flex: 2, display: "flex", justifyContent:"flex-end" }}>
 						<i className="icon search" />
