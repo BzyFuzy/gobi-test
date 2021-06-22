@@ -91,7 +91,7 @@ a {
 .header {
 	display: flex;
 	flex-direction: column;
-	background: url(./img/back.png) no-repeat;
+	background: url(./img/back-min.jpg) no-repeat;
 	background-position: center center;
 	/* background-attachment: fixed; */
 	background-size: cover;
@@ -122,6 +122,7 @@ a {
 }
 
 .header .top li {
+    cursor: pointer;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
@@ -134,17 +135,35 @@ a {
 	margin-right: 40px;
 }
 
-.top .icon {
+.top .cancel {
+    right: 38.52px;
+    display: inline-block;
+    position: relative;
+    width: 38.52px;
+    height: 38.52px;
+    background: url(./img/icon/cancel.png) 50% 50% no-repeat;
+	background-size: 100% 100%;
+}
+
+.top .searchicon {
+    width: 17.86px;
+	height: 18px;
+	background: url(./img/icon/search.png) 50% 50% no-repeat;
+	background-size: 100% 100%;
+    margin-right: 7.27px;
+}
+
+.top .iconw {
 	height: 44px;
 	width: 44px;
 }
 
-.icon.bag {
+.iconw.bag {
 	background: url(./img/icon/bag.png) 50% 50% no-repeat;
 	background-size: 100% 100%;
 }
 
-.icon.heart {
+.iconw.heart {
 	margin-left: 17.38px;
 	background: url(./img/icon/heart.png) 50% 50% no-repeat;
 	background-size: 100% 100%;
@@ -213,7 +232,7 @@ a {
 }
 
 .special .off p.upto {
-    margin-right: 18.31px;
+	margin-right: 18.31px;
 	font-size: 32px;
 	line-height: 38px;
 }
@@ -222,13 +241,13 @@ a {
 	line-height: 162px;
 }
 .special .off p.ff {
-    font-size: 70px;
-    line-height: 105px;
-    align-self: flex-end;
+	font-size: 70px;
+	line-height: 105px;
+	align-self: flex-end;
 }
 
 .special button {
-    margin-top: 41.68px;
+	margin-top: 41.68px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: 500;

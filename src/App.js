@@ -1,4 +1,5 @@
 import NavigationBar from './components/navbar';
+import Special from './components/special';
 
 function App() {
 	return (
@@ -16,30 +17,18 @@ function App() {
 					<div className="logo">
 						<img alt="logo" src="/img/logo.svg" height="42px" />
 					</div>
-					<div className="row center" style={{ flex: 2, display: "flex", justifyContent:"flex-end" }}>
-						<i className="icon search" />
-						<input className="search" placeholder="Search" />
-						<i className="icon heart" />
-						<i className="icon bag" />
+					<div className="row center" style={{ flex: 2, display: 'flex', justifyContent: 'flex-end' }}>
+						<i className="searchicon" />
+						<div className="row center">
+							<input className="search" placeholder="Search" />
+							<i className="cancel" />
+						</div>
+						<i className="iconw heart" />
+						<i className="iconw bag" />
 					</div>
-          
 				</div>
-        <div style={{display: "flex", flex:1}}>
-          <div style={{flex: 1}}></div>
-          <div className="special" >
-          <p className="summer">SUMMER </p>
-          <p className="sale">Sale</p>
-          <div className="off row center" >
-            <p className="upto">upto</p>
-            <p className="stp">60%</p>
-            <p className="ff">ff</p>
-          </div>
-          <button>shop now</button>
-          </div>
-        </div>
+				<Special />
 			</div>
-
-      
 		</div>
 	);
 }
