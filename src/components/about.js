@@ -14,8 +14,8 @@ export const About = () => (
 				</button>
 			</div>
 			<div style={{ flex: 1, display: 'flex', justifyContent: 'flex-end', marginTop: 64.74 }}>
-				<img src="/img/aimg.png" />
-				<img style={{ marginLeft: '28px', marginRight: '31.42px' }} src="/img/aimg.png" />
+				<img alt="aba1" src="/img/aimg.png" />
+				<img alt="aba2" style={{ marginLeft: '28px', marginRight: '31.42px' }} src="/img/aimg.png" />
 			</div>
 			
 		</div>
