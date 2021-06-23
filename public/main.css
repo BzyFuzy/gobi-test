@@ -11,7 +11,8 @@ a,
 p,
 textarea,
 input,
-ul {
+ul,
+h1 {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -29,6 +30,15 @@ a {
 	color: inherit;
 }
 
+p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	/* line-height: 138.19%; */
+	color: #636363;
+}
+
 button,
 input[type="submit"] {
 	background: none;
@@ -38,6 +48,18 @@ input[type="submit"] {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+}
+
+button {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 138.19%;
+	text-transform: uppercase;
+
+	border-radius: 10px;
+	padding: 15.69px 48.31px 13.31px 48.31px;
 }
 
 .nav {
@@ -122,7 +144,7 @@ a {
 }
 
 .header .top li {
-    cursor: pointer;
+	cursor: pointer;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
@@ -136,21 +158,22 @@ a {
 }
 
 .top .cancel {
-    right: 38.52px;
-    display: inline-block;
-    position: relative;
-    width: 38.52px;
-    height: 38.52px;
-    background: url(./img/icon/cancel.png) 50% 50% no-repeat;
+	cursor: pointer;
+	right: 38.52px;
+	display: inline-block;
+	position: relative;
+	width: 38.52px;
+	height: 38.52px;
+	background: url(./img/icon/cancel.png) 50% 50% no-repeat;
 	background-size: 100% 100%;
 }
 
 .top .searchicon {
-    width: 17.86px;
+	width: 17.86px;
 	height: 18px;
 	background: url(./img/icon/search.png) 50% 50% no-repeat;
 	background-size: 100% 100%;
-    margin-right: 7.27px;
+	margin-right: 7.27px;
 }
 
 .top .iconw {
@@ -248,13 +271,116 @@ a {
 
 .special button {
 	margin-top: 41.68px;
+	color: #000000;
+	background: #ffffff;
+}
+
+.title {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 46px;
+	line-height: 132%;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+button.dark {
+	padding: 15.5px 43.78px;
+	background: #272727;
+	color: #ffffff;
+}
+
+.images {
+	margin-left: 6px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.images img {
+	height: calc(50% - 3px);
+}
+
+.infusion {
+	margin-top: 14.85px;
 	font-family: Roboto;
 	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
+	font-weight: normal;
+	font-size: 16px;
 	line-height: 138.19%;
+	color: #585858;
+	float: right;
+}
+
+.menu {
+	display: flex;
+	padding-bottom: 57.21px;
+	padding-top: 60.09px;
+	padding-left: 28.51px;
+	padding-right: 28.51px;
+}
+
+.menu .item {
+	text-align: center;
+	flex: 1;
+	margin: 3px;
+	background-position: center center;
+	background-size: cover;
+	height: 78vh;
+}
+
+.menu p.title {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 50px;
+	line-height: 60px;
 	text-transform: uppercase;
-	background: #ffffff;
-	border-radius: 10px;
-	padding: 15.69px 48.31px 13.31px 48.31px;
+	color: #000000;
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.09);
+	margin-bottom: 32.72px;
+	margin-top: 30.85px;
+}
+
+.menu .link {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menu .link p {
+	margin-left: 22.46px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 35px;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.09);
+}
+
+.menu .link i.arrow {
+	cursor: pointer;
+	width: 79.94px;
+	height: 79.83px;
+	background: url(./img/icon/larrow.svg) 50% 50% no-repeat;
+	background-size: 100% 100%;
+}
+
+.toget {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 48px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #4f5255;
+}
+
+.footer {
+	height: 42.5vh;
+	background: linear-gradient(0deg, #F5F7F6, #F5F7F6), #FFFFFF;
 }
