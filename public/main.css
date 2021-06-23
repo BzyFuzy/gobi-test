@@ -159,9 +159,7 @@ a {
 
 .top .cancel {
 	cursor: pointer;
-	right: 38.52px;
 	display: inline-block;
-	position: relative;
 	width: 38.52px;
 	height: 38.52px;
 	background: url(./img/icon/cancel.png) 50% 50% no-repeat;
@@ -193,6 +191,7 @@ a {
 }
 
 .top input {
+	width: 100%;
 	padding: 10px 16px;
 	background: #f7f8fb;
 	border-radius: 8px;

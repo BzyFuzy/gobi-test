@@ -4,7 +4,7 @@ const NavigationBar = () => (
 				<i className="icon earth" />
 				<p>Global - English</p>
 			</div>
-			<div className="row center">
+			<div className="row center a1">
 				<p style={{ marginRight: 14 }}>RETURNING AN ORDER?</p>
 				<a href="#re">Click for more info</a>
 			</div>

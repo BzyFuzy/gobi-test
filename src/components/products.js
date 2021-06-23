@@ -5,7 +5,7 @@ export const Products = ({ products }) => (
 		<div>
 			<p className="toget">TO GET and TO GIFT</p>
 		</div>
-		<div style={{ width: '894px', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', margin: 'auto' }}>
+		<div className="a2" style={{ width: '894px', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', margin: 'auto' }}>
 			{products.map((product, index) => <ProductItem key={'product' + index} data={product} />)}
 		</div>
 	</>

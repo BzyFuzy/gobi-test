@@ -5,6 +5,7 @@ import { Menu } from './components/menu';
 import NavigationBar from './components/navbar';
 import { Products } from './components/products';
 import { SubHeader } from './components/subheader';
+import { Subscripe } from './components/subscripe';
 
 function App() {
 	const womenItems = [
@@ -121,19 +122,7 @@ function App() {
 			<Menu items={manItems} title={'MEN'} />
 			<Products products={products} />
 			<About />
-			<div className="subscripe">
-				<h1>Subscribe</h1>
-				<p>Sign up for emails and receive early access to new arrivals, sales, events + more.</p>
-				<div className="input">
-					<input placeholder="Enter your email address" />
-					<button className="dark">Submit</button>
-				</div>
-				<p className="agree">
-					By signing up, you will receive Gobi Cashmere offers, promotions and other commercial messages. You
-					are also agreeing <br />to Gobi Cashmere's <u>Privacy Policy</u>. You may unsubscribe at any time.
-				</p>
-			</div>
-
+			<Subscripe />
 			<Footer />
 		</div>
 	);
