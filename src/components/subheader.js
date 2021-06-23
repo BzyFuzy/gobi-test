@@ -11,10 +11,10 @@ export const SubHeader = () => (
 		</div>
 		<div>
 			<div style={{ display: 'flex', height: '60vh', justifyContent: 'flex-end' }}>
-				<img src="/img/img0.jpg" />
+				<img alt="img" src="/img/img0.jpg" />
 				<div className="images">
-					<img src="/img/img1.jpg" />
-					<img src="/img/img2.jpg" />
+					<img alt="img1" src="/img/img1.jpg" />
+					<img alt="img2" src="/img/img2.jpg" />
 				</div>
 			</div>
 			<p className="infusion">Infusion of summer pieces and cashmere silk blends.</p>

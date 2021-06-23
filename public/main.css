@@ -381,6 +381,147 @@ button.dark {
 }
 
 .footer {
-	height: 42.5vh;
-	background: linear-gradient(0deg, #F5F7F6, #F5F7F6), #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	padding: 62.01px 2px 0px 2.6px;
+	background: linear-gradient(0deg, #f5f7f6, #f5f7f6), #ffffff;
+}
+
+.footerc {
+	display: flex;
+}
+
+.footer .fmenu ul {
+	margin-top: 31px;
+	list-style-type: none;
+}
+
+.footer .fmenu > p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.125em;
+	color: #000000;
+	text-transform: uppercase;
+}
+.footer .fmenu ul li {
+	margin: 8px 0px;
+}
+
+.footerw {
+	display: flex;
+	flex-direction: column;
+	flex: 4;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+	background: rgb(255, 255, 255);
+	justify-content: center;
+	padding: 54.54px 127.67px 23.87px 86.9px;
+}
+
+.fmenucont {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer .social {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	padding-left: 56.98px;
+	justify-content: center;
+}
+
+.footer .social div > p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	fill: #5f5f5f;
+}
+
+.footer .social > div.global {
+	display: flex;
+	align-items: center;
+	margin-top: 47.33px;
+}
+
+.footer .social div > i.earth {
+	margin-left: 9.1px;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background-size: 100% 100%;
+	background: url(./img/icon/earths.svg) 50% 50% no-repeat;
+	fill: #5f5f5f;
+}
+
+.footer .fmenu ul li a {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #5f5f5f;
+}
+
+.footer .fmenu ul li .icon {
+	display: block;
+	cursor: pointer;
+	width: 17px;
+	height: 17px;
+}
+
+.footer .payment {
+	display: flex;
+	align-items: center;
+	margin-top: 41.59px;
+}
+
+.footer .payment .icon {
+	display: block;
+	cursor: pointer;
+	width: 38px;
+	height: 24px;
+	margin-right: 8.8px;
+}
+
+.icon.facebook {
+	background-size: 100% 100%;
+	background: url(./img/social/facebook.svg) 50% 50% no-repeat;
+}
+
+.icon.instagram {
+	background-size: 100% 100%;
+	background: url(./img/social/instagram.svg) 50% 50% no-repeat;
+}
+
+.icon.twitter {
+	background-size: 100% 100%;
+	background: url(./img/social/twitter.svg) 50% 50% no-repeat;
+}
+
+.icon.youtube {
+	background-size: 100% 100%;
+	background: url(./img/social/youtube.svg) 50% 50% no-repeat;
+}
+
+.footer .fmenu ul li {
+	margin: 16px 0px;
+}
+
+.copyright {
+	margin: 21.28px 0px 25.72px 86.9px;
+	/* margin-top: 25px;
+	margin-left: 86.9px; */
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 140.69%;
+	color: #575f61;
 }

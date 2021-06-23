@@ -1,3 +1,4 @@
+import { Footer } from './components/footer';
 import { Header } from './components/header';
 import { Menu } from './components/menu';
 import NavigationBar from './components/navbar';
@@ -25,68 +26,10 @@ function App() {
 				<p className="toget">TO GET and TO GIFT</p>
 			</div>
 			<div style={{ margin: '42px 273px' }} />
-
-			<div className="footer">
-				<div style={{ padding: '62.01px 2px 64px 2.6px' }}>
-					<div>
-						<div>
-							<p>ABOUT US</p>
-							<ul>
-								<li>
-									<a>Our History</a>
-								</li>
-								<li>
-									<a>Product Care</a>
-								</li>
-								<li>
-									<a>Store Location</a>
-								</li>
-								<li>
-									<a>Sustainability</a>
-								</li>
-							</ul>
-						</div>
-						<div>
-							<p>POLICY</p>
-							<ul>
-								<li>
-									<a>Shipping & Return Policy</a>
-								</li>
-								<li>
-									<a>Privacy Policy</a>
-								</li>
-								<li>
-									<a>Impressum</a>
-								</li>
-								<li>
-									<a>Return Portal</a>
-								</li>
-							</ul>
-						</div>
-
-						<div>
-							<p>CUSTOMER SERVICE</p>
-							<ul>
-								<li>
-									<a>General Terms and Conditions</a>
-								</li>
-								<li>
-									<a>Contact Us</a>
-								</li>
-								<li>
-									<a>News</a>
-								</li>
-								<li>
-									<a>FAQ</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div />
-				</div>
-			</div>
+			<Footer />
 		</div>
 	);
 }
+
 
 export default App;
