@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export const Products = ({ products }) => (
+const Products = ({ products }) => (
 	<>
 		<div>
 			<p className="toget">TO GET and TO GIFT</p>
@@ -10,6 +10,8 @@ export const Products = ({ products }) => (
 		</div>
 	</>
 );
+
+export default Products;
 
 const ProductItem = ({ data }) => {
 	const [ selectedColor, setSelectedColor ] = useState('');
