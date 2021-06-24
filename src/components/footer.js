@@ -86,7 +86,7 @@ const Footer = () => {
               <i className="pp" />
               <i className="vi" />
             </div>
-            <img src="/img/reviews.png" />
+            <img alt="review" src="/img/reviews.png" />
           </div>
         </div>
       </div>

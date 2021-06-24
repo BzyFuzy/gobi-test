@@ -52,7 +52,7 @@ const DropwDown = ({ showDD }) => (
     <div className="cont">
       <div className="suggest">
         <div style={{ display: "flex" }}>
-          <img src="/img/dd.jpg" />
+          <img alt="dd" src="/img/dd.jpg" />
           <div className="info">
             <p>Chill Summer Essential Set</p>
             <div style={{ display: "flex" }}>
@@ -65,7 +65,7 @@ const DropwDown = ({ showDD }) => (
         </div>
 
         <div style={{ display: "flex" }}>
-          <img src="/img/dd.jpg" />
+          <img alt="dd" src="/img/dd.jpg" />
           <div className="info">
             <p>Chill Summer Essential Set</p>
             <div style={{ display: "flex" }}>
@@ -78,7 +78,7 @@ const DropwDown = ({ showDD }) => (
         </div>
 
         <div style={{ display: "flex" }}>
-          <img src="/img/dd.jpg" />
+          <img alt="dd" src="/img/dd.jpg" />
           <div className="info">
             <p>Chill Summer Essential Set</p>
             <div style={{ display: "flex" }}>
@@ -91,7 +91,7 @@ const DropwDown = ({ showDD }) => (
         </div>
 
         <div style={{ display: "flex" }}>
-          <img src="/img/dd.jpg" />
+          <img alt="dd" src="/img/dd.jpg" />
           <div className="info">
             <p>Chill Summer Essential Set</p>
             <div style={{ display: "flex" }}>
